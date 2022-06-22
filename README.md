@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Clich Here!](https://github.com/APdev88/frontend-mentor-stats-preview-card#built-with)
-- Live Site URL: [Clich Here!](https://stats-preview-card-component-ap.netlify.app/)
+- Solution URL: [Click Here!](https://github.com/APdev88/frontend-mentor-stats-preview-card#built-with)
+- Live Site URL: [Click Here!](https://stats-preview-card-component-ap.netlify.app/)
 
 ## My process
 
