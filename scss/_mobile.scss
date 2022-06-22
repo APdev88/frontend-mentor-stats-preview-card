@@ -1,0 +1,50 @@
+@media (max-width: 576px) {
+  .stats {
+    width: 90%;
+    height: 550px;
+    flex-direction: column;
+
+    &__left {
+      order: 2;
+      width: 100%;
+      margin-bottom: -10em;
+      border-radius: 0 0 10px 10px;
+
+      &__text {
+        margin: 2em 3em;
+        text-align: center;
+        h1 {
+          font-size: 24px;
+        }
+
+        .stats__left__p {
+          font-size: 13px;
+        }
+
+        &__data {
+          &__box {
+            span {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+
+      .stats__left__text__data {
+        margin-top: 1.3em;
+        flex-direction: column;
+
+        &__box {
+          margin-top: 1.5em;
+        }
+      }
+    }
+
+    .stats__right {
+      height: 250px;
+      background-position: top;
+      width: 100%;
+      border-radius: 10px 10px 0 0;
+    }
+  }
+}

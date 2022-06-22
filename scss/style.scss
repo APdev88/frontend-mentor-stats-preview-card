@@ -1,0 +1,79 @@
+@import "config";
+
+body {
+  background-color: $dark-blue;
+  font-size: 15px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stats {
+  max-width: 1100px;
+  // height: 350px;
+  display: flex;
+
+  // max-width: 75%;
+  border-radius: 10px;
+  color: $white;
+
+  &__left {
+    width: 52%;
+    background-color: $desatured-blue;
+    border-radius: 10px 0 0 10px;
+
+    &__text {
+      margin: 3.5em 3em;
+
+      h1 {
+        font-size: 29px;
+        margin-bottom: 0.8em;
+        span {
+          color: $soft-violet;
+        }
+      }
+
+      .stats__left__p {
+        color: $paragraph-color;
+        width: 90%;
+        font-size: 12px;
+        line-height: 1.6;
+      }
+
+      &__data {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3.5em;
+        width: 90%;
+
+        &__box {
+          span {
+            font-weight: 700;
+            font-size: 18px;
+          }
+
+          p {
+            font-size: 9px;
+            margin-top: 0.5em;
+            letter-spacing: 1px;
+            color: $paragraph-color;
+          }
+        }
+      }
+    }
+  }
+
+  .stats__right {
+    border-radius: 0 10px 10px 0;
+    width: 48%;
+    background-image: url(../images/image-header-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: $soft-violet;
+    background-blend-mode: multiply;
+  }
+}
+
+@import "mobile";
